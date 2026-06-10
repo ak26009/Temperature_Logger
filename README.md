@@ -4,21 +4,13 @@ A real-time temperature monitoring and data logging system using ESP32 and 7 DS1
 
 🚀 Features
 Real-time monitoring of 7 DS18B20 temperature sensors
-
 ESP32-based data acquisition
-
 Live temperature dashboard using PyQt5
-
 Real-time graphical visualization using PyQtGraph
-
 Automatic CSV data logging
-
 Temperature alarm indication (outside 20°C–25°C range)
-
 Serial communication with ESP32
-
 Secure login screen
-
 Export logged data to CSV
 
 ## 🛠️ Hardware Requirements
