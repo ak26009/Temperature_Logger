@@ -61,7 +61,8 @@ No external pull-up resistors are required for the current implementation.
 
 The login credentials can be configured directly in the Python source code if authentication is required.
 In this section 
-  if (
-    username == "admin"
-    and password == "admin123"
-):
+  
+##  if (
+##    username == "admin"
+##    and password == "admin123"
+## ):
