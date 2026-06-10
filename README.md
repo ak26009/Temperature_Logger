@@ -22,6 +22,18 @@ A real-time temperature monitoring and data logging system using ESP32 and 7 DS1
 * Jumper Wires
 
 ---
+## ⚙️ Installation
+## 1. Clone the repository
+
+git clone https://github.com/yourusername/7-Sensor-Temperature-Monitoring-System.git
+cd 7-Sensor-Temperature-Monitoring-System
+
+## 2. Install dependencies
+pip install -r requirements.txt
+
+## 3. Run the application
+python temperature_logger.py
+## 4. Upload the Arduino code to ESP32 and connect the board via USB.
 
 ## 📌 Sensor Connections
 
