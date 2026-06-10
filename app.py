@@ -1,5 +1,5 @@
 # 7 SENSOR TEMPERATURE MONITORING SYSTEM
-
+# rewrite the code removing the retearn details
 
 import sys
 import csv
