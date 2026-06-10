@@ -1,4 +1,4 @@
-7 Sensor Temperature Monitoring System
+🌡️ 7 Sensor Temperature Monitoring System
 
 A real-time temperature monitoring and data logging system using ESP32 and 7 DS18B20 Temperature Sensors. The system continuously acquires temperature data from multiple sensors, transmits it via serial communication, and visualizes the readings through a Python-based GUI dashboard with live graphs, status monitoring, and CSV logging.
 
@@ -64,3 +64,12 @@ pinMode(PINx, INPUT_PULLUP);
 ```
 
 No external pull-up resistors are required for the current implementation.
+
+## 🔐 Authentication
+
+The login credentials can be configured directly in the Python source code if authentication is required.
+In this section 
+  if (
+    username == "admin"
+    and password == "admin123"
+):
