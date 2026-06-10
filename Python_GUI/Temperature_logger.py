@@ -117,14 +117,14 @@ class DataLogger(QWidget):
         # SENSOR NAMES
         # =================================================
         self.sensor_names = [
-            "S1_Display",
-            "S2_Cradle_F",
-            "S3_Battery",
-            "S4_Camera",
-            "S5_Flap_stp",
-            "S6_Engine_lck",
-            "S7_MCB"
-        ]
+    "Sensor 1",
+    "Sensor 2",
+    "Sensor 3",
+    "Sensor 4",
+    "Sensor 5",
+    "Sensor 6",
+    "Sensor 7"
+]
 
         # =================================================
         # STYLE
