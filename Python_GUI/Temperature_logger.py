@@ -108,7 +108,7 @@ class DataLogger(QWidget):
         super().__init__()
 
         self.setWindowTitle(
-            "Retearn Temperature Monitoring System"
+            "7 Sensor Temperature Monitoring System"
         )
 
         self.resize(1600, 950)
@@ -165,7 +165,7 @@ class DataLogger(QWidget):
         # HEADER
         # =================================================
         header = QLabel(
-            "RETEARN DATA LOGGER"
+            "TEMPERATURE DATA LOGGER"
         )
 
         header.setAlignment(Qt.AlignCenter)
@@ -619,7 +619,7 @@ class LoginWindow(QWidget):
         super().__init__()
 
         self.setWindowTitle(
-            "Retearn Secure Login"
+            "Secure Login"
         )
 
         self.setFixedSize(450, 320)
@@ -658,7 +658,7 @@ class LoginWindow(QWidget):
         layout = QVBoxLayout()
 
         title = QLabel(
-            "RETEARN LOGIN SYSTEM"
+            "LOGIN SYSTEM"
         )
 
         title.setAlignment(Qt.AlignCenter)
@@ -726,8 +726,8 @@ class LoginWindow(QWidget):
         password = self.password.text()
 
         if (
-            username == "Retearn"
-            and password == "2016"
+            username == "admin"
+            and password == "admin123"
         ):
 
             self.status.setText(
