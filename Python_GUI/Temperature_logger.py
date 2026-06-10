@@ -77,7 +77,7 @@ class SensorCard(QFrame):
 
         self.value.setText(f"{temp:.2f} Â°C")
 
-        # ALARM RANGE
+        # ALARM RANGE CAN BE CHANGED ACCORDINLY TO YOUR THREESHOLD VALUES
         if temp < 20 or temp > 25:
 
             self.status.setText("â— ALARM")
